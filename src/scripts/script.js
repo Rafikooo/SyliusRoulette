@@ -1,15 +1,12 @@
 const devs = [
-    'Ernest',
     'Grześ',
     'Jakub',
     'Janek',
     'Kamil',
     'Kevin',
     'Magda',
-    'Mati',
     'Rafik',
     'Takub',
-    'Łuki',
 ];
 const rouletteButton = document.getElementById('roulette-button');
 const devContainer = document.getElementById('dev-list');
