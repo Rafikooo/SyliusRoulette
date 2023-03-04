@@ -1,0 +1,51 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    },
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "jsx": "preserve",
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitThis": true,
+    "noFallthroughCasesInSwitch": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "skipLibCheck": true,
+    "types": [
+      "node",
+      "jsdom"
+    ],
+    "typeRoots": [
+      "./node_modules/@types"
+    ],
+    "include": [
+      "src/**/*",
+      "src/**/*.vue",
+      "src/**/*.ts",
+      "src/**/*.js"
+    ]
+  },
+  "exclude": [
+    "node_modules"
+  ],
+    "include": [
+        "src/**/*",
+        "global.d.ts",
+    ]
+}
